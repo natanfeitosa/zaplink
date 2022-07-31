@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zaplink"
+version = "0.1.0"
+description = ""
+authors = ["Natanael dos Santos Feitosa <natansantosapps@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+Kivy = "^2.1.0"
+kivymd = {git = "https://github.com/kivymd/KivyMD.git"}
+
+[tool.poetry.dev-dependencies]
+buildozer = "^1.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
